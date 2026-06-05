@@ -14,6 +14,13 @@ public class CpuTempExpansion extends PlaceholderExpansion {
         this.plugin = plugin;
     }
 
+    // CRITICAL: Tells PAPI not to unregister this expansion when /papi reload is
+    // used
+    @Override
+    public boolean persist() {
+        return true;
+    }
+
     @Override
     public String getIdentifier() {
         return "srv";
