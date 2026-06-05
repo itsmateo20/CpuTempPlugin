@@ -46,8 +46,8 @@ The expansion uses the identifier `srv`. You can use the following placeholders 
 2. Place the JAR file into your server's `plugins/` folder.
 3. Ensure **PlaceholderAPI** is also installed in your `plugins/` folder.
 4. Restart your server.
-5. Verification: You should see `[CpuTempPlugin] CpuTemp enabled` in your server console log.
-6. `/papi parse me %srv_cpu_temp%` should show your current CPU temperature in the chat.
+5. You should see `[CpuTempPlugin] CpuTemp enabled` in your server console log.
+6. `/papi parse me %srv_cpu_temp%` Should show your current CPU temperature in the chat.
 
 ---
 
