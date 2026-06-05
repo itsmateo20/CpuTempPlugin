@@ -1,5 +1,0 @@
-name: CpuTempPlugin
-version: 1.0
-main: org.itsmateo20.cputemp.CpuTempPlugin
-api-version: 1.20
-depend: [PlaceholderAPI]
